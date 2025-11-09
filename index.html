@@ -629,8 +629,8 @@
     <script>
         // GOOGLE SHEETS AYARLARI
         // Buraya kendi Google Sheets ID'nizi ekleyin
-        const GOOGLE_SHEETS_ID = '1sfXYZs5njG2jahHcJSzKDbvNosQFjRso2cZNZ872LjE';
-        const SHEET_NAME = 'Form Yanıtları 1'; // Sayfa adınızı buraya yazın
+        const GOOGLE_SHEETS_ID = '1pPoJcO3_hIc55VHlYvC14YhQsqwY-8y3';
+        const SHEET_NAME = 'Sakarya İş Kazaları'; // Sayfa adınızı buraya yazın
         
         // Harita başlat
         const map = L.map('map').setView([40.75, 30.40], 10);
@@ -652,7 +652,7 @@
 
         // Google Sheets'ten veri yükle
         async function loadFromGoogleSheets() {
-            if (GOOGLE_SHEETS_ID === '1sfXYZs5njG2jahHcJSzKDbvNosQFjRso2cZNZ872LjE') {
+            if (GOOGLE_SHEETS_ID === '1pPoJcO3_hIc55VHlYvC14YhQsqwY-8y3') {
                 showError('⚠️ Lütfen önce Google Sheets ID\'nizi kodda güncelleyin!');
                 return;
             }
